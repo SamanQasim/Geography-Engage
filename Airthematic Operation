@@ -1,1 +1,25 @@
-
+<?php
+namespace Calculator;
+Class Airthmetic
+{
+    public function Add($a, $b)
+    {
+        $c = $a+$b;
+        return $c;
+    }
+    public function Subtract($a, $b)
+    {
+        $c = $a-$b;
+        return $c;
+    }
+    public function Product($a, $b)
+    {
+        $c = $a*$b;
+        return $c;
+    }
+    public function Division($a, $b)
+    {
+        $c = $a/$b;
+        return $c;
+    }
+}
